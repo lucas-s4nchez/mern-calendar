@@ -81,6 +81,8 @@ const revalidateToken = (req, res) => {
 
   res.json({
     ok: true,
+    uid,
+    name,
     token: token,
   });
 };
